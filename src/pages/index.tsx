@@ -1,15 +1,12 @@
 import yayJpg from '../assets/yay.jpg';
-
+// import Demo from './copyXflow'
+import Demo from './xflowDemo'
+import Dag from './dagDemo'
 export default function HomePage() {
   return (
     <div>
-      <h2>Yay! Welcome to umi!</h2>
-      <p>
-        <img src={yayJpg} width="388" />
-      </p>
-      <p>
-        To get started, edit <code>pages/index.tsx</code> and save to reload.
-      </p>
+      {/* <Demo /> */}
+      <Dag />
     </div>
   );
 }
